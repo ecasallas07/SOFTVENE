@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+
+/* donde se encuntra el logo de la empresa */
+.header{
+    float:left;
+    margin-right: 30px;
+}
+
+/* Cuadro principal donde va el loguin */
+.main{
+    float:left;
+    margin-left: 30px;
+    
+}
+
+/* /* formulario ------------------------ */
+.main-box{
+   border: 7px solid orange;
+   border-radius: 20px;
+   width: 700px;
+   height: 600px;
+   padding: 20px;
+   margin-top: 40px;
+     
+}
+
+.conatiner-fluid{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.main-head{
+   
+}
+
+.logo-veneplast{
+    height: 500px ;
+    width: 600px;
+}
+
+
+
+/* logo de software */
+
+
+.imagen-logo-soft{
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.logo-venesoft{
+    height: 300px;
+}
+
+.form-control1{
+    border: 5px solid orange;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.text-user-pasw{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+    bottom: 3px;
+}
+.formulario{
+   
+    margin-top: 20px;
+    text-align: center;
+}
+.btn-submit{
+    background-color: orange;
+    padding: 15px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 10px;
+    border: 2px white solid;
+}
