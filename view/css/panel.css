@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@600 & display=swap');
+.panel-casos{
+    margin: 40px;
+}
+.information{
+ 
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Cuando se utiliza felx-direction para centrar los elementos se debe utilizar justify-content=center */
+
+.agregar-buscar-btn{
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  margin-bottom: 30px;
+
+
+}
+.btn-agregar{
+    border: 1px solid black;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #fc9615;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
