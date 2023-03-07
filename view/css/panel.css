@@ -2,8 +2,8 @@
 .panel-casos{
     margin: 40px;
 }
-.information{
- 
+.information-panel{
+    
     margin-bottom: 40px;
     font-family: 'Poppins', sans-serif;
 }
@@ -32,3 +32,49 @@
     font-weight: bold;
 
 }
+.contadores-empresas{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+.rama-judicial{
+    border: 2px solid #fc9615;
+    width: 300px;
+    height: 130px;
+    border-radius: 5px;
+    align-items: center;
+
+}
+.logo-rama{
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+.idartes{
+    border: 2px solid #fc9615;
+    width: 300px;
+    height: 130px;
+    align-items: center;
+}
+
+
+.logo-idartes{
+    height: 100px;
+    border-radius: 20px;
+    margin: 10px 27px;
+}
+
+.justicia-penalmilitar{
+    border: 2px solid #fc9615;
+    width: 300px;
+    height: 130px;
+}
+
+.logo-penal{
+    height: 100px;
+    margin: 10px 27px;
+}
+

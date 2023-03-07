@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@600 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@600&display=swap');
+$color: #fc9615 ;
+$colorHover: #111a3a;
+$myFont: 'Poppins', sans-serif;
+$position: relative;
+$width: 700px;
+$border: 2px solid #111a3a;
+$izquierda: float;
+$height:100px;
+$fontImportant:'Shantell Sans', cursive;
+
+.body{
+    background-color: #DED8D7;
+}
+.table-samsumg-hp {
+   width:$width ;
+   border: $border;
+  
+}
+table{
+   margin: 20px auto;
+   float: $izquierda;
+   
+   tr{
+      width: $width;
+      border: $border;
+   }
+   th{
+      padding:10px;
+      border: $border;
+
+   }
+   td{
+      border: $border;
+   }
+}
+
+.botones-samsumg-hp{
+  
+   font-family: $myFont;
+   font-size: 20px;
+
+   .buscar-btn{
+
+      position: relative;
+      bottom: 150px;
+      left: 100px;
+      text-align: center;
+    
+      width: 200px;
+
+      a{
+         font-family: $myFont;
+         padding:15px;
+         border: $border;
+         color: black;
+         text-decoration: none;
+         border-radius: 10px;
+         background-color: $color;
+      }
+      a:hover{
+         background-color: #111a3a;
+         color: #fc9615;
+      }
+
+   }
+   .agregar-btn{
+      position: relative;
+      width: 200px;
+      
+      left: 1063px;
+      bottom: 182px;
+      text-align: center;
+      margin-right: 0px;
+      a{
+         font-family: $myFont;
+         padding:15px;
+         border: $border;
+         color: black;
+         text-decoration: none;
+         background-color: $color;
+         border-radius: 10px;
+      
+            }
+         a:hover{
+            background-color: #111a3a;
+            color: #fc9615;
+         }
+      
+    
+   }
+  
+
+}
+.contador-samsumg-hp{
+  
+  
+   width: 470px;
+   margin: 0px auto;
+   text-align: center;
+   
+   
+   a{
+      text-decoration: none;
+      color: #111a3a;
+      display: flex;
+      align-items: center;
+   }
+   a:hover{
+      color: $color;
+   }
+   .bd-text{
+      font-size: 90px;
+   }
+   .texto-inventario{
+      font-size: 25px;
+      font-weight: bold;
+      font-family: $fontImportant;
+      margin-left: 10px;
+   }
+}
+
+.img-samsumg{
+   
+   text-align: center;
+}
+.imagen-hp{
+   text-align: center;
+   margin: 30px;
+   img{
+      height: 130px;
+      animation: float 4s linear infinite ;
+   }
+
+   @keyframes float {
+      0% , 100%{
+            transform: translateY(0rem);
+      }50%{
+         transform: translateY(-1.5rem);
+     }
+      
+   }
+}

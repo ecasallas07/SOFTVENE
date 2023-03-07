@@ -1,0 +1,17 @@
+.table-panel {
+  margin: 0px auto;
+  width: 900px;
+}
+.table-panel tr {
+  border: 2px solid orange;
+}
+.table-panel th {
+  padding: 10px;
+  border: 2px solid orange;
+  width: 9px;
+}
+.table-panel td {
+  border: 2px solid orange;
+}
+
+/*# sourceMappingURL=panelsass.css.map */

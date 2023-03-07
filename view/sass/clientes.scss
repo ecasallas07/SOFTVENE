@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+$colorTabla:#111a3a;
+$borderTxt: 10px groove orange;
+$borderPrueba: 2px solid black;
+
+
+.txt-clientes{
+    text-align: center;
+    margin: 20px;
+    background-color: #111a3a;
+    border: $borderTxt;
+    margin-bottom: 0rem;
+    z-index: 1;
+    h2{
+       font-size: 60px;
+       color: white;
+    }
+}
+
+@mixin design_contracts($fondo){
+  display: flex;
+  justify-content: space-around;
+  background-color: $fondo;
+  padding:45px;
+  height: 410px;
+  a{
+    font-size: 105px;
+  }
+
+}
+
+.box-ramajudicial{
+    @include design_contracts(rgb(226, 226, 120));
+    z-index: -1
+}
+.box-idartes{
+    @include design_contracts(rgb(63, 19, 63));
+    color:white;
+}
+.box-justiciamilitar{
+    @include design_contracts(rgba(203, 203, 110, 0.6));
+}
+
+.rama-img{
+
+  width: 300px;
+  text-align: center;
+  a{
+   color :#111a3a;
+
+  }
+  a:hover{
+    color: orange;
+  }
+}
+
+.especificaciones{
+
+ display: block;
+  h3{
+    font-size: 20px;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: bold;
+  }
+  div{
+    display: flex;
+    p{
+      margin-left: 10px;
+      font-family: 'Oswald', sans-serif;
+    }
+  }
+}
+.direccion{
+  .map{
+    height: 300px;
+    width: 400px;
+  }
+}
+
+.idartes-img{
+
+  width: 300px;
+  text-align: center;
+  img{
+  width: 300px;
+  height: 180px;
+  }
+  a{
+   color: #fff;
+  }
+}
+.justicia-img{
+
+  width: 300px;
+  text-align: center;
+  
+  img{
+ height: 200px;
+ padding: 10px 25px;
+
+  }
+  a{
+    color: #111a3a;
+  }
+
+}
+
+
+
+
+
+

@@ -19,10 +19,12 @@
 .main-box{
    border: 7px solid orange;
    border-radius: 20px;
-   width: 700px;
+   width: 640px;
    height: 600px;
    padding: 20px;
-   margin-top: 40px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   margin-left: 6rem;
      
 }
 
@@ -30,13 +32,14 @@
     margin-top: 30px;
     margin-left: 20px;
 }
-.main-head{
-   
-}
 
 .logo-veneplast{
     height: 500px ;
-    width: 600px;
+    width: 400px;
+}
+.logo-veneplast:hover{
+   padding: 20px;
+   
 }
 
 
@@ -51,6 +54,9 @@
 
 .logo-venesoft{
     height: 300px;
+}
+.logo-venesoft:hover{
+   padding: 20px;
 }
 
 .form-control1{
@@ -78,4 +84,45 @@
     font-family: 'Rubik', sans-serif;
     border-radius: 10px;
     border: 2px white solid;
+}
+.form-control1:focus{
+ outline: 1px solid orange; /*Sirve para que al enfocar el input se muestre del color indicado*/
+}
+  
+
+
+/* Animaciones */
+.btn-submit:hover{
+ 
+    bottom:-1px;
+    right:-1px;
+    border-bottom:5px solid black;
+    border-right:5px solid black;
+    box-shadow: 3px 2px 4px grey;
+}
+.text-veneplast{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: orange;
+    font-size: 40px;
+    display: block;
+    white-space: nowrap;
+    border-right:  4px solid;
+    width: 15ch;
+    animation: typing 10s steps(15), blink .7s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    
+from{
+    width: 0;}
+}
+
+@keyframes blink {
+    40%{
+        border-color: transparent;
+       
+    }
+    
 }
