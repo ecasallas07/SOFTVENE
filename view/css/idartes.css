@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+:root{
+    --azul: #111a3a;
+    --orange:#fc9615;
+    --borderPrueba: 2px solid black;
+    --font:'Poppins', sans-serif;
+}
+
+main{
+    height: 1000px;
+}
+body{
+    background-color:#DED8D7 ;
+}
+.imagen-idartes{
+   
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+    
+}
+.imagen-idartes img{
+    width: 20vw;
+    margin-top: 20px;
+    background-color: #111a3a;
+    border-radius: 50%;
+    transition: float 3s linear infinite;
+    border: 2px double var(--orange);
+    
+}
+
+@keyframes float {
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+    }
+    
+}
+
+.botones-idartes{
+    width: 50%;
+    height: 50px;
+    padding: 20px;
+    margin: auto;
+}
+.botones-idartes ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.botones-idartes ul li{
+    list-style: none;
+    margin: 0;
+    border: var(--borderPrueba);
+    padding: 10px;
+    width: 20%;
+    cursor: pointer;
+    background-color: var(--azul);
+    transition: all .3s linear;
+    text-align: center;
+}
+
+.botones-idartes ul li a{
+    text-decoration-line: none;
+    color:var(--orange);
+    font-family: var(--font);
+    font-weight: bold;
+}
+
+table {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-family: var(--font);
+  }
+  table tr {
+    width: 700px;
+    border: 2px solid #111a3a;
+  }
+  table th {
+    padding: 10px;
+    border: 2px solid #111a3a;
+    background-color: #fc9615;
+    color: #111a3a;
+  }
+  table td {
+    border: 2px solid #111a3a;
+  }
+
+  .btn-informe{
+   
+    width: 20%;
+    display: flex;
+    height: 80px;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+  }
+
+  .btn-informe a{
+    text-decoration-line: none;
+    border: var(--borderPrueba);
+    padding: 10px;
+    margin-top: 40px;
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--azul);
+    background-color: #fc9615;
+  }
+
+  .places-idartes{
+    width: 300px;
+    height: 400px;
+    overflow: scroll;
+    border: 6px var(--azul) groove;
+    position: relative;
+    bottom: 250px;
+    left: 970px;
+    padding: 15px;
+    font-family: var(--font);
+  }
+  .places-idartes div{
+    height: 200px;
+  }
+
+  footer{
+    border: var(--borderPrueba);
+    height: 200px;
+    background-color: var(--azul);
+}

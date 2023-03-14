@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.txt-clientes {
+  text-align: center;
+  margin: 20px;
+  background-color: #111a3a;
+  border: 10px groove orange;
+  margin-bottom: 0rem;
+  z-index: 1;
+}
+.txt-clientes h2 {
+  font-size: 60px;
+  color: white;
+}
+
+.box-ramajudicial {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(226, 226, 120);
+  padding: 45px;
+  height: 410px;
+  z-index: -1;
+}
+.box-ramajudicial a {
+  font-size: 105px;
+}
+
+.box-idartes {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(63, 19, 63);
+  padding: 45px;
+  height: 410px;
+  color: white;
+}
+.box-idartes a {
+  font-size: 105px;
+}
+
+.box-justiciamilitar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(203, 203, 110, 0.6);
+  padding: 45px;
+  height: 410px;
+}
+.box-justiciamilitar a {
+  font-size: 105px;
+}
+
+.rama-img {
+  width: 300px;
+  text-align: center;
+}
+.rama-img a {
+  color: #111a3a;
+}
+.rama-img a:hover {
+  color: orange;
+}
+
+.especificaciones {
+  display: block;
+}
+.especificaciones h3 {
+  font-size: 20px;
+  font-family: "Tilt Prism", cursive;
+  font-weight: bold;
+}
+.especificaciones div {
+  display: flex;
+}
+.especificaciones div p {
+  margin-left: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.direccion .map {
+  height: 300px;
+  width: 400px;
+}
+
+.idartes-img {
+  width: 300px;
+  text-align: center;
+}
+.idartes-img img {
+  width: 300px;
+  height: 180px;
+}
+.idartes-img a {
+  color: #fff;
+}
+
+.justicia-img {
+  width: 300px;
+  text-align: center;
+}
+.justicia-img img {
+  height: 200px;
+  padding: 10px 25px;
+}
+.justicia-img a {
+  color: #111a3a;
+}
+
+/*# sourceMappingURL=clientes.css.map */

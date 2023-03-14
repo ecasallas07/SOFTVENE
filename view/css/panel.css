@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@600 & display=swap');
+.panel-casos{
+    margin: 40px;
+}
+.information-panel{
+    
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Cuando se utiliza felx-direction para centrar los elementos se debe utilizar justify-content=center */
+
+.agregar-buscar-btn{
+  display: flex;
+  gap: 10rem;
+  justify-content: center;
+  margin-bottom: 30px;
+
+
+}
+.btn-agregar{
+    border: 1px solid black;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    background-color: #fc9615;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+.contadores-empresas{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+.rama-judicial{
+    border: 2px solid #fc9615;
+    width: 300px;
+    height: 130px;
+    border-radius: 5px;
+    align-items: center;
+
+}
+.logo-rama{
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+.idartes{
+    border: 2px solid #fc9615;
+    width: 300px;
+    height: 130px;
+    align-items: center;
+}
+
+
+.logo-idartes{
+    height: 100px;
+    border-radius: 20px;
+    margin: 10px 27px;
+}
+
+.justicia-penalmilitar{
+    border: 2px solid #fc9615;
+    width: 300px;
+    height: 130px;
+}
+
+.logo-penal{
+    height: 100px;
+    margin: 10px 27px;
+}
+

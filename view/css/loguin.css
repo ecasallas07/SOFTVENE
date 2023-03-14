@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+
+/* donde se encuntra el logo de la empresa */
+.header{
+    float:left;
+    margin-right: 30px;
+}
+
+/* Cuadro principal donde va el loguin */
+.main{
+    float:left;
+    margin-left: 30px;
+    
+}
+
+/* /* formulario ------------------------ */
+.main-box{
+   border: 7px solid orange;
+   border-radius: 20px;
+   width: 640px;
+   height: 600px;
+   padding: 20px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   margin-left: 6rem;
+     
+}
+
+.conatiner-fluid{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.logo-veneplast{
+    height: 500px ;
+    width: 400px;
+}
+.logo-veneplast:hover{
+   padding: 20px;
+   
+}
+
+
+
+/* logo de software */
+
+
+.imagen-logo-soft{
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.logo-venesoft{
+    height: 300px;
+}
+.logo-venesoft:hover{
+   padding: 20px;
+}
+
+.form-control1{
+    border: 5px solid orange;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.text-user-pasw{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+    bottom: 3px;
+}
+.formulario{
+   
+    margin-top: 20px;
+    text-align: center;
+}
+.btn-submit{
+    background-color: orange;
+    padding: 15px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 10px;
+    border: 2px white solid;
+}
+.form-control1:focus{
+ outline: 1px solid orange; /*Sirve para que al enfocar el input se muestre del color indicado*/
+}
+  
+
+
+/* Animaciones */
+.btn-submit:hover{
+ 
+    bottom:-1px;
+    right:-1px;
+    border-bottom:5px solid black;
+    border-right:5px solid black;
+    box-shadow: 3px 2px 4px grey;
+}
+.text-veneplast{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: orange;
+    font-size: 40px;
+    display: block;
+    white-space: nowrap;
+    border-right:  4px solid;
+    width: 15ch;
+    animation: typing 10s steps(15), blink .7s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    
+from{
+    width: 0;}
+}
+
+@keyframes blink {
+    40%{
+        border-color: transparent;
+       
+    }
+    
+}

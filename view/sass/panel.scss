@@ -1,0 +1,24 @@
+$width: 900px ;
+$border:2px solid orange;
+$widthtitle: 9px;
+
+
+.table-panel{
+    margin: 0px auto;
+  
+    width: $width;
+   
+    tr{
+       
+       border: $border;
+    }
+    th{
+       padding:10px;
+       border: $border;
+       width: $widthtitle;
+ 
+    }
+    td{
+       border: $border;
+    }
+ }
